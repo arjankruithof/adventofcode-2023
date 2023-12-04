@@ -48,6 +48,7 @@ appData.forEach((line) => {
 });
 
 console.log('Solution part 2:', solutionPart2);
+
 const endTime = new Date().getTime();
 const executionTime = endTime - startTime;
 console.log('Execution Time:', executionTime, 'ms');
